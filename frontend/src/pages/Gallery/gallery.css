@@ -1,0 +1,15 @@
+#carouselExampleDark{
+    margin: auto;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.whole-thing{
+    height: 480px;
+   
+}
+.d-block{
+    height: 100%;
+    object-fit: center;
+    filter: brightness(.6);
+}
