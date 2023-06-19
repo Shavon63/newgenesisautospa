@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Additional from '../../components/Additional/Additional'
+import "./home.css"
 
 function Packages() {
   const [services, setServices] = useState([])
@@ -14,7 +15,7 @@ function Packages() {
     
 },[])
   return (
-    <div>fghj
+    <div className='first-container'>
     <div className='pg1'>
     <header className='header'>
         <h1>Bringing Life 2 Ur Cars</h1>

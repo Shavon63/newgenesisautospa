@@ -1,6 +1,5 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import {Reorder} from "@mui/icons-material"
 import {Link, Navigate} from 'react-router-dom'
 import './nav.css'
 import * as Scroll from "react-scroll"
@@ -16,7 +15,7 @@ export default function Nav() {
     <div className="navbar" id= {showNav? 'open' : 'close' }>
     <div className='toggleButton'>
         <button onClick={toggleButton}> 
-            <Reorder/>
+  
         </button>
     </div>
     <div className='links'>
