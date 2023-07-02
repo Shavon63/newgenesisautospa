@@ -1,0 +1,8 @@
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-menu li {
+    margin: 30px;
+}

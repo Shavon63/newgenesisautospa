@@ -19,15 +19,12 @@ export default function Nav() {
         </button>
     </div>
     <div className='links'>
-      <ul className={showNav? 'nav-menu active' : "nav-menu"}>
+      <ul className= {showNav? 'nav-menu active' : "nav-menu"}>
         <li>
         <Link to="/" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
         </li>
         <li>
         <Link to="/packages" spy={true} smooth={true} offset={50} duration={500}>Packages</Link>
-        </li>
-        <li>
-        <Link to="/services" spy={true} smooth={true} offset={50} duration={500}>Services</Link>
         </li>
         <li>
         <Link to="/contact"  spy={true} smooth={true} offset={50} duration={500}>Contact</Link>

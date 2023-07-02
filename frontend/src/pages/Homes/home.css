@@ -1,10 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 .pg1{
-    background-color: darkgrey;
+    background-color: rgb(13, 26, 71);
 }
 
 .header{
+    font-family: "Lilita One" , cursive;
+    text-align: center;
+
+}
+.header-1{
+    color: white;
+    font-size: 60px;
+    padding: 50px;
+}
+.header-p{
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+button{
+    margin: 25px;
+    border-radius: 10px;
+    background-color: blue;
+    color: aliceblue;
+    font-family: "lilita one", cursive;
+}
+
+article{
+    background-color: aliceblue;
+    height: 100vh;
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.article-intro{
+    font-weight: 900;
+    font-family: "Lilita One" , cursive;
+}
+.article-p{
+    width: 50%;
+    font-size: 20px
+    
+}
+
+.article-img{
+    width: 40%;
+    margin: 40px;
+    margin-top: 8%;
+}
+.article-div{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 12%;
+}
+.services{
+    background: src('https://i.imgur.com/4U2KjPs.jpg');
+    background-position: cover;
+}
+
+.our-services{
     size: 40px ;
     font-family: "Lilita One" , cursive;
+    text-align: center;
+}
+.services-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+}
+.figure-container{
+    margin: 60px;
+}
+
+.populated-services{
+    height: 200px;
+    overflow-y: scroll;
+}
+.description{
+    font-size: 20px;
 }

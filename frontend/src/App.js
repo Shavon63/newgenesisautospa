@@ -1,4 +1,4 @@
-import Services from './pages/Services/Services';
+
 import Packages from './pages/Packages/Packages';
 import {Routes, Route} from 'react-router-dom'
 import './App.css';
@@ -16,7 +16,6 @@ function App() {
       <Nav/>
       <Routes>
       <Route path= '/' element={<Homes/>}/>
-      <Route path= '/services' element={<Services/>}/>
       <Route path= '/packages' element={<Packages/>}/>
       <Route path='/*'element={<Error/>}/> 
       </Routes>

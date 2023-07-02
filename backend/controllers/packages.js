@@ -5,12 +5,8 @@ const db = require("../models")
 const Packages = require('../models/packages')
 
 router.get("/", (req, res)=>{
-    db.Packages.find(req.params, (err,packages)=>{
-        if(!packages){
-            req.send(404)
-        }else{
-            res.json(packages)
-        }
+    db.Packages.find(req.params).then((packages)=>{
+        res.send(packages)
     })
 })
 

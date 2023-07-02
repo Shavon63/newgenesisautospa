@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 .additional-services{
     background: url(https://i.imgur.com/Ey69ErW.jpg);
     background-position: center;
     
 }
 .ad-serve{
-    text-align: center;
+   margin-left: 35%;
 }
 .ad-serve-head{
     text-align: center;
+    font-family: "Lilita One", cursive;
+}
+.ad-info{
+    color: red;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 25px;
+    list-style: none;
+}
+span{
+    margin-left: 40px;
+    color: blue;
+
 }
